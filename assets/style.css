@@ -178,6 +178,23 @@ footer {
     background-color: blueviolet;
 }
 
+.row{
+    padding-top: 25px;
+}
+
+.resume{
+    font: 35px bolder;
+    text-decoration: none;
+    color: white;
+    text-shadow: black 1px 1px;
+    margin-bottom: 25px;
+}
+    .resume:hover{
+        text-shadow: black 1px 1px;
+        color: rgb(24, 160, 184);
+        text-decoration: underline rgb(24, 160, 184) 2px;
+    }
+
 .comingsoon{
     padding-top: 50px;
     font-size: x-large;
@@ -200,8 +217,17 @@ footer {
 .contactbox{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5px;
 }
+.myemail{
+    color: rgb(24, 160, 184);
+    text-decoration: none;
+    font-size: 35px;
+}
+    .myemail:hover{
+        color: rgb(105, 40, 180);
+        text-decoration: underline rgb(24, 160, 184) solid 2px;
+    }
 
 .twitter{
     color: rgb(24, 160, 184);
