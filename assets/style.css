@@ -1,0 +1,278 @@
+/* Navbar */
+.navbar {
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(86, 53, 163);
+    border-color: black;
+    border-style: double;
+    border-width: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow:
+    inset 0 0 50px rgb(46, 47, 48),     /* inner white */
+    inset 20px 0 80px rgb(93, 38, 219),   /* inner left magenta short */
+    inset -20px 0 80px rgb(15, 190, 221),  /* inner right cyan short */
+    inset 20px 0 300px rgb(58, 14, 163),  /* inner left magenta broad */
+    inset -20px 0 300px rgb(57, 184, 206), /* inner right cyan broad */
+    0 0 20px rgb(188, 194, 133),            /* outer white */
+    -10px 0 80px rgb(57, 184, 206),        /* outer left magenta */
+    10px 0 80px rgb(93, 38, 219);  
+}
+
+.navbar-nav{
+    margin-left: 40px;
+}
+
+.navbar-brand{
+    color: rgb(23, 209, 194);
+    font-weight: bolder;
+    font-size:90px;
+    border-right: solid rgb(47, 6, 1) 6px;
+    border-left: solid rgb(47, 6, 1) 6px;
+    border-radius: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 70px;
+}
+    .navbar-brand:hover{
+        animation: colorchange 5s infinite alternate;
+        text-shadow: black 1px 1px;
+    }
+        @keyframes colorchange {
+            from  {color: rgb(3, 94, 123);}
+                to {color: rgb(165, 1, 4);}
+        }
+
+.nav-link {
+    font-weight: 900;
+    margin: 3px;
+    margin-left: 15px;
+    text-size-adjust: 25%;
+    font-size: x-large;
+    color: black;
+    text-shadow: black 1px 1px;
+}
+
+.nav-link:hover{
+    color: rgb(37, 174, 192);
+    animation: colorchangebtns 1s infinite alternate-reverse;
+}
+    @keyframes colorchangebtns {
+        from  {color: rgb(8, 142, 175);}
+            to  {color: rgb(12, 62, 168);}
+    }
+
+
+#navbarTogglerDemo01{
+    padding-left: 15px;
+}
+
+p{
+    font-size: larger;
+    color: rgb(255, 248, 248);
+    text-shadow: black 2px 2px;
+}
+
+body {
+    background-image: url("http://wallpoper.com/images/00/44/42/17/black-background-wood-clean_00444217.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+
+.line1{
+    margin-top: 65px;
+}
+
+.line2{
+    margin-top: 30px;
+}
+
+.links:hover{
+    text-decoration: underline black 2px solid;
+}
+
+.porttitle{
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    color: rgb(93, 38, 219);
+    text-shadow: black 2px 2px ;
+}
+
+.container{
+    text-align: center;
+    margin: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.outer{
+    font-family: 'Newsreader', serif;
+    margin: 45px 40px 25px 40px;
+    padding: 50px 55px 30px 55px;
+    height: 350px;
+    box-shadow:
+    inset 0 0 50px white,     /* inner white */
+    inset 20px 0 80px rgb(24, 160, 184),   /* inner left magenta short */
+    inset -20px 0 80px rgb(105, 40, 180),  /* inner right cyan short */
+    inset 20px 0 300px rgb(24, 160, 184),  /* inner left magenta broad */
+    inset -20px 0 300px rgb(105, 40, 180), /* inner right cyan broad */
+    0 0 50px rgb(0, 0, 0),            /* outer white */
+    -10px 0 80px rgb(105, 40, 180),        /* outer left magenta */
+    10px 0 80px rgb(24, 160, 184);  
+}
+
+.title{
+    font-weight: 900;
+    color: black;
+}
+
+.content{
+    font-weight: 500;
+    padding: 15px 50px 20px 50px;
+    text-shadow: 1px 1px black;
+    font-size: 23px;
+}
+
+.inner{
+    font-family: 'Newsreader', serif;
+    margin: 45px 40px 25px 40px;
+    padding: 50px 55px 30px 55px;
+    height: 350px;
+    box-shadow:
+    inset 0 0 50px white,     /* inner white */
+    inset 20px 0 80px rgb(93, 38, 219),   /* inner left magenta short */
+    inset -20px 0 80px rgb(57, 184, 206),  /* inner right cyan short */
+    inset 20px 0 300px rgb(93, 38, 219),  /* inner left magenta broad */
+    inset -20px 0 300px rgb(57, 184, 206), /* inner right cyan broad */
+    0 0 50px rgb(66, 65, 65),            /* outer white */
+    -10px 0 80px rgb(57, 184, 206),        /* outer left magenta */
+    10px 0 80px rgb(93, 38, 219);  
+}
+
+footer {
+    color: rgb(105, 40, 180);
+    text-shadow: 1px 1px black;
+    padding-top: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center; 
+    
+}
+
+.top{
+    color: white;
+    text-shadow: rgb(107, 0, 128) 1px 1px;
+    text-decoration: none;
+}
+
+.top:hover{
+    color: rgb(153, 9, 172);
+}
+
+/* Portfolio content */
+.sidenav{
+    background-color: blueviolet;
+}
+
+.comingsoon{
+    padding-top: 50px;
+    font-size: x-large;
+    font-weight: bold;
+    color: greenyellow;
+    text-shadow: black 2px 2px;
+    text-align: center;
+}
+
+
+ /* Contact Page  */
+.contactheader{
+    padding-top: 35px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: rgb(105, 40, 180);
+    text-shadow: black 2px 2px;
+}
+
+.contactbox{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.twitter{
+    color: rgb(24, 160, 184);
+    text-decoration: none;
+    font-size: 35px;
+}
+    .twitter:hover{
+        color: rgb(105, 40, 180);
+        text-decoration: underline rgb(24, 160, 184) solid 2px;
+    }
+
+.linkedin{
+    color: rgb(24, 160, 184);
+    text-decoration: none;
+    font-size: 35px;
+}
+    .linkedin:hover{
+        color: rgb(105, 40, 180);
+        text-decoration: underline rgb(24, 160, 184) solid 2px;
+    }
+
+input {
+    color: black;
+    font-size: xx-large;
+    border: 3px solid rgb(105, 40, 180);
+    border-radius: 20px;
+    background-position: center ;
+    background-size: cover;
+    background-color: #696969;
+}
+
+    input::placeholder{
+        color: rgb(24, 160, 184);
+        text-shadow: black 1px 1px;
+        font-size: larger;
+        font-weight: 600;
+    }
+
+#name{
+    height: 45px;
+    width: 60%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#contact{
+    height: 45px;
+    width: 60%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#message{
+    height: 150px;
+    width: 60%;
+    margin-top: 30px;
+    padding: 5px 30px 60px 30px;
+    text-align: center;
+}
+
+#submit{
+    margin-top: 8px;
+    color: rgb(24, 160, 184);
+    background-color: black;
+    opacity: .6;
+    height: 40px;
+    width: 100px;
+    border:ridge rgb(105, 40, 180) 2px;
+}
+
+#submit:hover{
+    background-color: rgb(24, 160, 184);
+    color: black;
+}
